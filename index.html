@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Myer Wang Apps</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --card: #172033;
+      --text: #eef2ff;
+      --muted: #a8b3cf;
+      --accent: #7dd3fc;
+      --border: rgba(255, 255, 255, 0.14);
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1e3a5f 0, var(--bg) 42rem);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 7vw, 4rem);
+      letter-spacing: -0.04em;
+    }
+    p {
+      color: var(--muted);
+      margin: 0 0 24px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin-top: 32px;
+    }
+    .card {
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.22);
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Myer Wang Apps</h1>
+    <p>Public app information, privacy policies, support pages, and terms for apps created by Myer Wang.</p>
+
+    <section class="grid" aria-label="Apps">
+      <article class="card">
+        <h2>笨单词 LazyWords</h2>
+        <p>A pixel-art English vocabulary learning app with RPG-style battles, local progress, speech playback, and optional in-app purchases planned for production release.</p>
+        <div class="links">
+          <a href="./lazywords/">Overview</a>
+          <a href="./lazywords/privacy/">Privacy Policy</a>
+          <a href="./lazywords/support/">Support</a>
+          <a href="./lazywords/terms/">Terms</a>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
