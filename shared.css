@@ -216,6 +216,26 @@ a:hover {
   font-size: 0.95rem;
 }
 
+.language-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 22px 0 30px;
+}
+
+.language-links a {
+  padding: 7px 13px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.language-links a[aria-current="page"] {
+  border-color: transparent;
+  background: var(--accent-strong);
+  color: #082f49;
+}
+
 @media (max-width: 720px) {
   .detail-hero {
     grid-template-columns: 1fr;
