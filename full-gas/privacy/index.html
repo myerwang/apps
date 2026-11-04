@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>憋不住了 — Privacy</title><style>
+:root {
+  color-scheme: light dark;
+  --page-bg: #edf2f7; --panel-bg: #ffffff; --text: #182230;
+  --secondary: #475467; --link: #1759a3; --focus: #8430b8; --border: #bdc8d6;
+  font: 100%/1.65 system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg: #101722; --panel-bg: #1c2736; --text: #f2f5fa;
+    --secondary: #c0ccdb; --link: #99c9ff; --focus: #f3c1ff; --border: #63758e;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: clamp(1rem, 4vw, 3rem); background: var(--page-bg); color: var(--text); }
+.panel { max-width: 52rem; margin: 0 auto 1rem; padding: clamp(1rem, 4vw, 2rem);
+  background: var(--panel-bg); color: var(--text); border: 1px solid var(--border); border-radius: 1rem;
+  overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+a { color: var(--link); text-underline-offset: .2em; }
+nav a, summary { padding-block: .5rem; min-height: 2.75rem; }
+summary { cursor: pointer; color: var(--text); }
+details { margin-top: .75rem; border-top: 1px solid var(--border); }
+details nav { padding-top: .5rem; }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+a[aria-current="page"] { font-weight: 700; }
+h1, h2 { line-height: 1.25; }
+h1 { font-size: clamp(1.75rem, 5vw, 2.5rem); }
+h2 { font-size: 1.25rem; }
+.content { white-space: pre-wrap; }
+.metadata { color: var(--secondary); font-size: .9375rem; }
+</style></head><body><header class="panel"><nav aria-label="Pages"><a href="https://myerwang.github.io/apps/full-gas/">憋不住了</a> <a href="https://myerwang.github.io/apps/full-gas/privacy/">Privacy</a> <a href="https://myerwang.github.io/apps/full-gas/support/">Support</a></nav><details><summary>Language / 语言</summary><nav aria-label="Language"><a href="https://myerwang.github.io/apps/full-gas/privacy/" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></nav></details></header><main class="panel"><h1>Privacy</h1><h2>憋不住了</h2><p class="content">憋不住了 隐私说明
+本机数据
+游戏在设备中保存角色最高距离、历史记录、上次选择的角色以及声音和语言设置。设备备份受Apple设置控制，卸载可能移除本机数据。
+可选Game Center
+使用Game Center时，游戏会通过Apple服务提交跑酷距离。Apple依据Game Center玩家身份及相关设置处理成绩，并可能向其他玩家显示你的Game Center资料和排名。Game Center不把本作变成多人游戏；未登录或服务不可用时仍可普通游玩。
+广告与付费
+本版本不提供广告、内购或订阅，不接入广告追踪或自建分析服务。Apple的App Store、Game Center及系统诊断受Apple隐私政策和你的系统设置约束。
+联系
+如有隐私或使用问题，可通过 <a href="https://github.com/myerwang/apps/issues">https://github.com/myerwang/apps/issues</a> 提交反馈。Issue是公开的，请勿提交密码、身份资料或私人存档。GitHub账号及网站数据按GitHub政策处理。</p><p><a href="https://apps.apple.com/app/id6823430729">App Store</a></p><p class="metadata">1.0.0 · 2026-11-05</p></main></body></html>
