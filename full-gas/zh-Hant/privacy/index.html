@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>憋不住了 — 隱私</title><style>
+:root {
+  color-scheme: light dark;
+  --page-bg: #edf2f7; --panel-bg: #ffffff; --text: #182230;
+  --secondary: #475467; --link: #1759a3; --focus: #8430b8; --border: #bdc8d6;
+  font: 100%/1.65 system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg: #101722; --panel-bg: #1c2736; --text: #f2f5fa;
+    --secondary: #c0ccdb; --link: #99c9ff; --focus: #f3c1ff; --border: #63758e;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: clamp(1rem, 4vw, 3rem); background: var(--page-bg); color: var(--text); }
+.panel { max-width: 52rem; margin: 0 auto 1rem; padding: clamp(1rem, 4vw, 2rem);
+  background: var(--panel-bg); color: var(--text); border: 1px solid var(--border); border-radius: 1rem;
+  overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+a { color: var(--link); text-underline-offset: .2em; }
+nav a, summary { padding-block: .5rem; min-height: 2.75rem; }
+summary { cursor: pointer; color: var(--text); }
+details { margin-top: .75rem; border-top: 1px solid var(--border); }
+details nav { padding-top: .5rem; }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+a[aria-current="page"] { font-weight: 700; }
+h1, h2 { line-height: 1.25; }
+h1 { font-size: clamp(1.75rem, 5vw, 2.5rem); }
+h2 { font-size: 1.25rem; }
+.content { white-space: pre-wrap; }
+.metadata { color: var(--secondary); font-size: .9375rem; }
+.app-icon { width: 6rem; height: 6rem; object-fit: contain; border-radius: 1rem; }
+.cover { width: 100%; max-height: 28rem; object-fit: contain; }
+.gallery { display: flex; gap: 1rem; overflow-x: auto; padding-bottom: 1rem; }
+.gallery img { width: auto; max-width: 90%; height: 28rem; object-fit: contain; }
+</style></head><body><header class="panel"><nav aria-label="頁面"><a href="https://myerwang.github.io/apps/full-gas/zh-Hant/">憋不住了</a> <a href="https://myerwang.github.io/apps/full-gas/zh-Hant/privacy/">隱私</a> <a href="https://myerwang.github.io/apps/full-gas/zh-Hant/support/">支援</a></nav><details><summary>語言</summary><nav aria-label="語言"><a href="https://myerwang.github.io/apps/full-gas/de-DE/privacy/" hreflang="de-DE" lang="de-DE">Deutsch</a> <a href="https://myerwang.github.io/apps/full-gas/en-US/privacy/" hreflang="en-US" lang="en-US">English</a> <a href="https://myerwang.github.io/apps/full-gas/es-ES/privacy/" hreflang="es-ES" lang="es-ES">Español</a> <a href="https://myerwang.github.io/apps/full-gas/fr-FR/privacy/" hreflang="fr-FR" lang="fr-FR">Français</a> <a href="https://myerwang.github.io/apps/full-gas/ja/privacy/" hreflang="ja" lang="ja">日本語</a> <a href="https://myerwang.github.io/apps/full-gas/ko/privacy/" hreflang="ko" lang="ko">한국어</a> <a href="https://myerwang.github.io/apps/full-gas/pt-BR/privacy/" hreflang="pt-BR" lang="pt-BR">Português</a> <a href="https://myerwang.github.io/apps/full-gas/privacy/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="https://myerwang.github.io/apps/full-gas/zh-Hant/privacy/" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a></nav></details></header><main class="panel"><h1>隱私</h1><h2>憋不住了</h2><p class="content">憋不住了 隱私說明
+本機資料
+遊戲在裝置中儲存角色最高距離、歷史紀錄、上次選擇的角色，以及音效與語言設定。裝置備份受Apple設定控制，解除安裝可能移除本機資料。
+選用Game Center
+使用Game Center時，遊戲透過Apple服務提交跑酷距離。Apple依Game Center玩家身分及相關設定處理成績，並可能向其他玩家顯示你的Game Center資料和排名。Game Center不會將本作變成多人遊戲；未登入或服務不可用時仍可正常遊玩。
+廣告與付費
+本版本不提供廣告、App內購買或訂閱，不接入廣告追蹤或自建分析服務。Apple的App Store、Game Center及系統診斷受Apple隱私政策和你的系統設定約束。
+聯絡
+隱私或使用問題可透過 <a href="https://github.com/myerwang/apps/issues">https://github.com/myerwang/apps/issues</a> 提交。Issue公開可見，請勿提供密碼、身分資料或私人存檔。GitHub帳號與網站資料依GitHub政策處理。</p><p><a href="https://apps.apple.com/app/id6823430729">App Store</a></p><p class="metadata">1.0.0 · 2026-11-05</p></main></body></html>
