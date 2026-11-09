@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>进化星球 — 隐私</title><style>
+:root {
+  color-scheme: light dark;
+  --page-bg: #edf2f7; --panel-bg: #ffffff; --text: #182230;
+  --secondary: #475467; --link: #1759a3; --focus: #8430b8; --border: #bdc8d6;
+  font: 100%/1.65 system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg: #101722; --panel-bg: #1c2736; --text: #f2f5fa;
+    --secondary: #c0ccdb; --link: #99c9ff; --focus: #f3c1ff; --border: #63758e;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: clamp(1rem, 4vw, 3rem); background: var(--page-bg); color: var(--text); }
+.panel { max-width: 52rem; margin: 0 auto 1rem; padding: clamp(1rem, 4vw, 2rem);
+  background: var(--panel-bg); color: var(--text); border: 1px solid var(--border); border-radius: 1rem;
+  overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+a { color: var(--link); text-underline-offset: .2em; }
+nav a, summary { padding-block: .5rem; min-height: 2.75rem; }
+summary { cursor: pointer; color: var(--text); }
+details { margin-top: .75rem; border-top: 1px solid var(--border); }
+details nav { padding-top: .5rem; }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+a[aria-current="page"] { font-weight: 700; }
+h1, h2 { line-height: 1.25; }
+h1 { font-size: clamp(1.75rem, 5vw, 2.5rem); }
+h2 { font-size: 1.25rem; }
+.content { white-space: pre-wrap; }
+.metadata { color: var(--secondary); font-size: .9375rem; }
+.app-icon { width: 6rem; height: 6rem; object-fit: contain; border-radius: 1rem; }
+.cover { width: 100%; max-height: 28rem; object-fit: contain; }
+.gallery { display: flex; gap: 1rem; overflow-x: auto; padding-bottom: 1rem; }
+.gallery img { width: auto; max-width: 90%; height: 28rem; object-fit: contain; }
+</style></head><body><header class="panel"><nav aria-label="页面"><a href="https://myerwang.github.io/apps/evo-island/zh-Hans/">进化星球</a> <a href="https://myerwang.github.io/apps/evo-island/zh-Hans/privacy/">隐私</a> <a href="https://myerwang.github.io/apps/evo-island/zh-Hans/support/">支持</a></nav><details><summary>语言</summary><nav aria-label="语言"><a href="https://myerwang.github.io/apps/evo-island/de-DE/privacy/" hreflang="de-DE" lang="de-DE">Deutsch</a> <a href="https://myerwang.github.io/apps/evo-island/privacy/" hreflang="en-US" lang="en-US">English</a> <a href="https://myerwang.github.io/apps/evo-island/es-ES/privacy/" hreflang="es-ES" lang="es-ES">Español</a> <a href="https://myerwang.github.io/apps/evo-island/fr-FR/privacy/" hreflang="fr-FR" lang="fr-FR">Français</a> <a href="https://myerwang.github.io/apps/evo-island/ja/privacy/" hreflang="ja" lang="ja">日本語</a> <a href="https://myerwang.github.io/apps/evo-island/ko/privacy/" hreflang="ko" lang="ko">한국어</a> <a href="https://myerwang.github.io/apps/evo-island/pt-BR/privacy/" hreflang="pt-BR" lang="pt-BR">Português</a> <a href="https://myerwang.github.io/apps/evo-island/zh-Hans/privacy/" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a> <a href="https://myerwang.github.io/apps/evo-island/zh-Hant/privacy/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></nav></details></header><main class="panel"><h1>隐私</h1><h2>进化星球</h2><p class="content">隐私政策 — 进化星球
+
+本地数据
+旅程进度、地图种子和声音设置保存在设备中。可在历史旅程中二次确认删除非当前旅程。卸载会移除本地应用数据；Apple 管理的设备备份另受其设置控制。
+
+Game Center
+使用 Game Center 时，游戏通过您的玩家身份向 Apple 发送最高等级与成就进度，用于排行榜和成就。个人资料和成绩可能根据 Apple 设置对其他玩家可见。该功能可选，服务不可用不影响本地单人游戏；可在设备设置中管理。
+
+自愿激励广告
+1.2.0 使用 Google AdMob 和用户消息平台（UMP）。观看广告完全自愿，可免除本次死亡的经验损失，或获得 10–60 分钟双倍攻击或双倍经验。首次加成为 10 分钟，同次游戏后续奖励可延长；游戏关闭或切到后台后仍按实际时间计时。不看广告仍可正常复活。广告需联网，且可能暂不可用。
+
+Google 广告 SDK 可能处理 IP 推算的大致位置、设备标识、广告交互、诊断或性能信息，用于广告、衡量和服务运行。UMP 展示适用的意见征求选项；可通过游戏隐私入口重新打开所需选项。在适用时，广告合作伙伴使用您在其他公司的 App 和网站中的活动衡量广告效果前，会请求 Apple 应用跟踪透明度（ATT）许可。跟踪必须获得 ATT 及其他适用同意。拒绝不影响普通游戏或免费复活，可用广告须遵守您的选择。您可在设备设置中更改跟踪许可。
+
+本地旅程、可选 Game Center 和广告奖励分别处理，没有独立玩家账号服务器。游戏玩法不请求位置、通讯录、摄像头、麦克风或相册权限。
+
+Apple 服务与支持
+应用分发、系统服务及自愿与 Apple 分享的诊断数据受 Apple 政策及设备设置管理。主动发送客服邮件时，我们仅使用您自愿提供的信息答复和调查请求。请只发送说明问题所必需的内容，不要发送密码或敏感信息。
+联系：ubunnyouji@gmail.com
+
+参考
+Game Center 隐私：<a href="https://www.apple.com/legal/privacy/data/en/game-center/">https://www.apple.com/legal/privacy/data/en/game-center/</a>
+Google 隐私：<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+Google Mobile Ads 数据披露：<a href="https://developers.google.com/admob/ios/privacy/data-disclosure">https://developers.google.com/admob/ios/privacy/data-disclosure</a></p><p><a href="https://apps.apple.com/app/id6818148296">App Store</a></p><p class="metadata">1.2.0 · 2026-11-09</p></main></body></html>
